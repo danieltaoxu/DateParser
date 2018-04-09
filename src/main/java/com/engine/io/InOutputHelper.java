@@ -20,6 +20,7 @@ public class InOutputHelper {
     List<String> words = new Vector<>();
     try
     {
+      System.out.println("Go!");
       String regex = getProperty("com.parser.regex");
       FileReader fileReader = new FileReader(aFileName);
       bufferedReader = new BufferedReader(fileReader);
