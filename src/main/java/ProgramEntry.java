@@ -8,6 +8,7 @@ public class ProgramEntry {
     String property = InOutputHelper.getProperty("com.parser.filepath");
     if (!StringUtils.Empty.equals(property))
     {
+      System.out.println("Hello World");
       DateExtractor.extractAllDateFromFile(property);
     }
   }
